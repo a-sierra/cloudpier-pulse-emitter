@@ -26,7 +26,7 @@ emitter.emit(stream, type, data)
 
 ##Example
 ```
-import { setupEmitter, startEmitter } from 'reef-pulse-emitter';
+import { setupEmitter, startEmitter } from 'cloudpier-pulse-emitter';
 import { SqsBrokerFacade, ReefClient } from 'reef-client';
 require('dotenv').load();
 
